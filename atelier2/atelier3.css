@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+width: 100%;
+background-color: hsl(229, 57%, 11%);
+background-image: url(bg-desktop.png);
+background-repeat:no-repeat ;
+background-position-y: 285px;
+font-family: 'Raleway';
+font-size: 14px;
+
+
+}
+.fylo{
+    background-color: hsl(228, 56%, 26%);
+    width: 283px;
+    height: 150px;
+    margin-top: 218px;
+    margin-left: 282px;
+    border-top-right-radius: 80px !important;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.logo-fylo{
+    margin-top: 21px;
+    margin-left: 30px;
+}
+
+.care{
+    margin-top: 13px;
+}
+.down{
+    width: 385px;
+    height: 112px;
+    background-color: hsl(228, 56%, 26%);
+    margin-top: 254px;
+    border-radius: 10px;
+}
+.border{
+    width: 80%;
+    HEIGHT: 15px;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 8px;
+    padding-top: 3px;
+    margin-top: 9px;
+    margin-left: 24px;
+}
+.border1{
+    background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    width: 73%;
+    HEIGHT: 15px;
+    border-radius: 8px;
+    margin-left: 1px;
+    margin-top: -1.5px;
+}
+.cercle{
+    background-color: white;
+    border-radius: 50%;
+    width: 13px;
+    height: 13px;
+    float: right;
+    margin-top: 1px;
+    margin-right: 2px;
+}
+
+.a{
+ display: flex;   
+}
+.care button{
+    background-color:hsl(229, 57%, 11%) ;
+    padding: 1.6em;
+    border-radius: 10%;
+    margin-right: -12px;
+    margin-left: 27px;
+    border:none;
+ 
+}
+.doc,.fold,.upl{
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.doc{
+    background-image: url(icon-document.svg);
+    background-size: 18px;
+}
+.fold{
+    background-image: url(icon-folder.svg);
+    background-size: 18px;
+}
+.upl{
+    background-image: url(icon-upload.svg);
+    background-size: 18px;
+}
+.down p{
+    margin-top: 26px;
+    margin-left: 24px;
+   
+}
+.para{
+    display: flex;
+    margin-top: -27px;
+}
+.GB{
+    margin-right: 205px;
+   
+}
+.gb{
+    height: 60px;
+    width: 120px;
+    background-color: white;
+    margin-left: 808px;
+    margin-top: -154px;
+    position: absolute;
+    border-radius: 7px;
+}
+.tri{
+    background-color: white;
+    clip-path: polygon(0 0, 100% 100%, 100% 0);
+    width: 39px;
+    height: 29px;
+    margin-top: 15px;
+    margin-left: 81px;
+}
+P{
+    margin-top: 22px;
+    margin-left: 17px;
+    color: white;
+}
+.GB, .TB{
+    color: white;
+}
+.black{
+    color: black;
+}
+@media (max-width:997px){
+    body{
+        width: 50%;
+        background-image: url(bg-mobile.png);
+        background-repeat: no-repeat;
+        font-family: 'Raleway';
+        font-size: 14px;
+        background-size: 200rem;
+        background-position-y: center;
+    }
+    
+    .a{
+        width: 100%;
+        display: block;   
+       }
+       .fylo{
+        background-color: hsl(228, 56%, 26%);
+        width: 579px;
+        height: 290px;
+        margin-left: 31px;
+        border-top-right-radius: 119px !important;
+        border-radius: 10px;
+        margin-right: 20px;
+    }
+    .logo-fylo {
+        margin-top: 44px;
+        margin-left: 69px;
+        width: 263px;
+    }
+    .care {
+        margin-top: 40px;
+        margin-left: 47px;
+    }
+    .care button {
+        background-color: hsl(229, 57%, 11%);
+        padding: 3.6em;
+        border-radius: 10%;
+    }
+    .doc {
+        background-image: url(icon-document.svg);
+        background-size: 51px;
+    }
+    .fold {
+        background-image: url(icon-folder.svg);
+        background-size: 69px;
+    }
+    .upl {
+        background-image: url(icon-upload.svg);
+        background-size: 73px;
+    }
+    .down {
+        width: 591px;
+        height: 199px;
+        background-color: hsl(228, 56%, 26%);
+        margin-top: 30px;
+        border-radius: 10px;
+        margin-left: 26px;
+        font-size: 28px;
+        padding-top: 27px;
+    }
+    .border {
+        margin-top: 36px;
+        margin-left: 54px;
+    }
+    .down p {
+        margin-left: 0px;
+        text-align: center;
+    }
+    .GB {
+        margin-right: 335px;
+        margin-left: 49px !important;
+    }
+    .gb {
+        height: 112px;
+        width: 259px;
+        background-color: white;
+        margin-left: 192px;
+        margin-top: -27px;
+        position: absolute;
+        border-radius: 7px;
+    }
+    .tri{
+        width: 0px;
+        height: 0px;
+    }
+    P {
+        margin-top: 47px;
+        margin-left: 52px;
+        font-size: 30px;
+        color: white;
+    }
+
+}
+
+

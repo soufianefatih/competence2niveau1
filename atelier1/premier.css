@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.a, .b{
+    width: 50%;
+
+}
+body{
+    background: url(bg-pattern-bottom-desktop.svg) , url(bg-pattern-top-desktop.svg) ;
+    background-position: right bottom !important, left top !important;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 106%, 40%;
+    font-family: 'Spartan',sans-serif;
+    font-size: 15px;
+
+}
+
+.t{
+    margin-left: 16px;
+    font-size: .7rem;
+}
+
+.contenue{
+    width: 80%;
+    margin: 0 auto;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin-top:50px;
+   
+
+}
+.top h1 {
+    font-size: 2.7rem;
+    margin-bottom: 1rem;
+    color: hsl(300, 43%, 22%);
+}
+.top p{
+    font-size: .9rem;
+}
+
+.b{
+    DISPLAY: FLEX;
+    FLEX-DIRECTION: column;
+}
+
+.b3{
+   margin-top: -2px;
+}
+.b1{
+    display: flex;
+    align-self: flex-start;
+}
+
+.b11,.b111{
+    margin-top: 15px;
+
+}
+
+.stars{
+    padding: 18px 28px;
+    border-radius: 7px;
+    background-color: hsl(300, 24%, 96%);
+}
+.b11{
+    display: flex;
+    align-self: center;
+}
+.b111{
+    display: flex;
+    align-self: flex-end;
+}   
+.bottom{
+
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 10px;
+} 
+.poste{
+    display: flex;
+}
+.colton{
+    background-color:  hsl(300, 43%, 22%);
+    border-radius: 8px;
+    width: 324px;
+    height: 200px;
+    margin-right:12px;
+   
+}
+.irene{
+    background-color:  hsl(300, 43%, 22%);
+    border-radius: 8px;
+    width: 324px;
+    height: 200px;
+    margin-top: 12px;
+    margin-right:12px;
+   
+}
+.anne{
+    background-color:  hsl(300, 43%, 22%);
+    border-radius: 8px;
+    width: 324px;
+    height: 200px;
+    margin-top: 24px;
+    
+}
+.img{
+width: 40px;
+height: 40px;
+border-radius: 50%;
+}
+.profile{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin-top: 33px;
+}
+
+.smith h3{
+    color: white;
+    font-size: .8rem;
+}
+.smith h4{
+color: hsl(333, 80%, 67%);
+font-size: .8rem;
+}
+.para{
+    color: white;
+    margin-top: 29px;
+    padding-left: 25px;
+    font-size: .8rem;
+}
+@media (max-width:948px){
+    .t{
+        display: block;
+        margin-left: 0px !important;
+        font-size: .7rem;
+    }
+    .b1, .stars{
+        display:block;
+        align-self: center;
+        justify-content: center;
+        width: 260px;
+    }
+    .b11, .stars{
+        display: block;
+        align-self: center;
+    }
+    .b111, .stars{
+        display: block;
+        align-self: center;
+    }
+    .b3{
+        display: inline-block;
+        margin-top: -5px;
+        margin-left: -5px;
+        
+     }
+}
+@media (max-width:628px){
+    .contenue{
+        width: 100%;
+        
+    }
+    .a, .b{
+        width: 100%;
+        text-align: center;
+    
+    }
+    .top{
+        display: block;
+        justify-content: space-between;
+        margin-top:50px;
+    }
+    .poste{
+        display: block;
+        justify-content: center;
+        
+    }
+    .a p{
+        margin-bottom: 12px;
+    }
+    .bottom{
+
+        width: 100%;
+        margin-bottom: 45px;
+        
+    }
+    .irene{
+        background-color:  hsl(300, 43%, 22%);
+        border-radius: 8px;
+        width: 324px;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .colton{
+        background-color:  hsl(300, 43%, 22%);
+        border-radius: 8px;
+        width: 324px;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .anne{
+        background-color:  hsl(300, 43%, 22%);
+        border-radius: 8px;
+        width: 324px;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .profile {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 70%;
+        padding-top: 29px;
+    }
+    body{
+        background: url(bg-pattern-bottom-desktop.svg) , url(bg-pattern-top-desktop.svg) ;
+        background-position: right bottom !important, left top !important;
+        background-repeat: no-repeat, no-repeat;
+        background-size: 0px, 40%;
+             
+    }
+ 
+
+  
+    
+}
+
+
+
+
+    
